@@ -15,7 +15,7 @@ const Skills = () => {
         My Top Skills &<br />
         Technologies
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-2  lg:grid-cols-4 gap-10">
         <SkillCard img={jsImage} name="JavaScript" />
         <SkillCard img={tsImage} name="TypeScript" />
         <SkillCard img={javaImage} name="Java" />
