@@ -10,7 +10,7 @@ import viteImage from "./assets/Vite.png";
 
 const Skills = () => {
   return (
-    <section className="container flex flex-col py-20 gap-12">
+    <section className="container flex flex-col py-20 gap-12" id="skill">
       <h1>
         My Top Skills &<br />
         Technologies

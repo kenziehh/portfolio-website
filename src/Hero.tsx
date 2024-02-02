@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="container flex-col-reverse gap-12 md:gap-0 md:flex-row flex justify-between pt-40 pb-20 items-center md:h-screen">
+    <section className="container flex-col-reverse gap-12 md:gap-0 md:flex-row flex justify-between pt-40 pb-20 items-center md:h-screen" id="profile">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-6">
           <h1 className="text-bold">Kenzie Taqiyassar</h1>

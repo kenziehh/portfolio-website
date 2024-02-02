@@ -14,6 +14,7 @@ const PortfolioCard = ({
         <a
           href="https://github.com/kenziehh/CareerHub"
           className="text-primaryBlue"
+          target="_blank" 
         >
           {link}
         </a>
