@@ -2,7 +2,7 @@ import PortfolioCard from "./components/PortfolioCard";
 
 const Portfolio = () => {
   return (
-    <section className="container flex flex-col gap-12 h-screen" id="portfolio">
+    <section className="container py-20 flex flex-col gap-12 h-screen" id="portfolio">
       <h1>My Portfolios</h1>
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row gap-8 md:gap-20">
