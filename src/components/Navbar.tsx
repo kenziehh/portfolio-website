@@ -1,5 +1,6 @@
 import Button from "./Button";
 import { Link } from "react-scroll";
+import cv from "./../assets/CV.pdf"
 
 const Navbar = () => {
   const handleDownload = () => {
@@ -46,8 +47,8 @@ const Navbar = () => {
           Contact
         </Link>
       </div>
-      <Button variant="default" onClick={handleDownload} className="rounded-md">
-        Download CV
+      <Button variant="default" className="rounded-md">
+        <a href={cv} download="CV Kenzie Taqiyassar">Download CV</a>
       </Button>
     </nav>
   );

@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <section className="container flex-col-reverse gap-12 md:gap-0 md:flex-row flex justify-between pt-40 pb-20 items-center md:h-screen" id="profile">
+    <section
+      className="container flex-col-reverse gap-12 md:gap-0 md:flex-row flex justify-between pt-40 pb-20 items-center md:h-screen"
+      id="profile"
+    >
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-6">
           <h1 className="text-bold">Kenzie Taqiyassar</h1>
@@ -8,10 +11,10 @@ const Hero = () => {
         </div>
 
         <p className="max-w-[500px]">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
-          iste commodi dolorum provident voluptates ut rerum debitis qui
-          consequatur eos reiciendis error veritatis quia soluta laborum
-          exercitationem repudiandae, maxime corporis?
+          I am an Informatics Engineering student at Brawijaya University who is
+          currently studying Software Engineering and Full Stack Development. I
+          also keep to learn and practice in programming everyday and explore
+          all of field in IT to keep update my knowledge.
         </p>
       </div>
       <img
