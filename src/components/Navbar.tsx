@@ -3,13 +3,6 @@ import { Link } from "react-scroll";
 import cv from "./../assets/CV.pdf"
 
 const Navbar = () => {
-  const handleDownload = () => {
-    const fileName = "CV Kenzie Taqiyassar.pdf";
-    const downloadLink = document.createElement("a");
-    downloadLink.href = "../assets/CV-Kenzie-Taqiyassar.pdf";
-    downloadLink.download = fileName;
-    downloadLink.click();
-  };
   return (
     <nav className="fixed bg-white flex justify-between items-center container py-4">
       <h3>Kenziehh</h3>
