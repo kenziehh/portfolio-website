@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 import cv from "./../assets/CV.pdf"
 
 const Navbar = () => {
-  return (
-    <nav className="fixed bg-white flex justify-between items-center container py-4">
-      <h3>Kenziehh</h3>
+    return (
+    <nav className="fixed top-0 bg-white flex justify-between items-center container py-4">
+      <h3 className="hidden md:block">Kenziehh</h3>
       <div className="flex gap-6 text-secGray">
         <Link
           to="profile"

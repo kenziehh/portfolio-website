@@ -8,7 +8,7 @@ const PortfolioCard = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div className="max-w-96 flex flex-col gap-2 py-20 px-8 shadow-xl rounded-xl">
+    <div className="max-w-96 flex flex-col gap-2 py-8 px-8 shadow-xl rounded-xl">
       <h3>{name}</h3>
       <div className="flex flex-col gap-4">
         <a

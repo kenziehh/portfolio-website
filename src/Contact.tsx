@@ -5,11 +5,11 @@ import { TfiEmail } from "react-icons/tfi";
 const Contact = () => {
   return (
     <section
-      className="container flex flex-col py-20 gap-16 h-screen"
+      className="container flex flex-col pt-20 gap-16 h-screen mt-40"
       id="contact"
     >
       <h1>Contact Me</h1>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col lg:flex-row">
         <ContactCard
           icon={<BsLinkedin size={25} />}
           name="Linkedin"
